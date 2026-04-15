@@ -38,10 +38,11 @@ Para ejecutar la suite de pruebas completa:
    <img width="640" height="340" alt="image" src="https://github.com/user-attachments/assets/9dd3fa07-badf-432a-89c0-3cb4f68882a9" />
 
 ## Apreciación y Reflexión Personal
-Como estudiante de **DAM**, esta práctica ha sido un "viaje" de los que te enseñan de verdad cómo funciona esto de la informática fuera de la teoría. Al principio, reconozco que ver tantas librerías y configurar el **JDK 26** me hizo sentir que me faltaban manos; pelearme con Maven para que descargara las dependencias correctas fue mi primer gran reto de la tarea.
-Lo que más me ha "volado la cabeza" ha sido el patrón **Page Object Model (POM)**. En clase siempre nos hablan de modularidad y de no repetir código, pero no es hasta que ves cómo una clase `LoginPage` limpia tu código de test cuando entiendes su valor real. He pasado de tener un código caótico lleno de localizadores `By.id` a tener unos tests que se leen casi como una conversación. Ver que, si la web cambia, solo tengo que tocar un archivo y no veinte, me ha hecho ver la diferencia entre ser un "picacodigo" y un desarrollador con criterio.
-También me llevo una lección importante sobre la frustración y la atención al detalle. Estuve un buen rato bloqueado porque un test fallaba, repasando el código una y otra vez, para terminar descubriendo que el error era que yo buscaba el texto "Contraseña incorrecta" y la web, al estar en inglés, me contestaba con "Epic sadface...". Eso me enseñó que en la automatización no puedes dar nada por hecho y que la inspección del DOM es nuestra mejor aliada.
-En conclusión, ver cómo el navegador se abre solo, realiza las acciones y por fin me devuelve esa fila de **checks verdes en IntelliJ** ha sido una de las experiencias más satisfactorias de lo que llevo de curso. Me voy con la seguridad de que puedo montar una base de pruebas profesional y con la satisfacción de haber domado a Selenium (aunque me haya costado algún que otro dolor de cabeza).
+
+Como estudiante de DAM, esta práctica ha sido un "viaje", pues se me ha complicado la configuración del JDK 26; Sobre el Page Object Model (POM), tuve otra clase de problemas con las versiones de las dependencias, pues al principio usé versiones más nuevas. Las acabé resolviendo con ayuda de mis compañeros de clase.
+
+En conclusión, al acabar las pruebas unitarias con resultado correcto en todas, puedo dar por finalizada esta tarea de manera satisfactoria.
+
 ---
 **Autor:** lordo0174  
 **Repositorio:** [PruebaSeleniumDesde0](https://github.com/lordo0174/PruebaSeleniumDesde0.git)
